@@ -1,19 +1,16 @@
 %%if
-\section{Exemple d'équation}
-L'une des principales forces de \LaTeX~est la saisie d'équations. L'équation \ref{eq:1}, citée à titre d'exemple, représente la transformation de phase d'une lentille biconvexe. Pour rédiger une équation \LaTeX~vous pouvez utiliser des outils en ligne tels que \href{https://www.latex4technics.com/}{latex4technics}. Essayez autant que possible d'écrire vos équations à la main. La courbe d'apprentissage n'est pas très raide et la valeur ajoutée est grande. Vous pouvez vous aider du panneau de \LaTeX~Workshop dans Visual Studio Code. Il est accessible via le raccourcis clavier \keystroke{Ctrl} + \keystroke{Alt} + \keystroke{X}.
+\section{Exemples}
+Dans cette **section**, nous allons voir divers exemples de mises en page, d'ajout d'élement et autres outils disponible avec \LaTeX~.
 
+\subsection{Equation}
+Nous avons la possibilité de créer simplement des équations et de les utiliser. Nous pouvons aussi les exporter, les réutiliser ou encore les modifier sans difficulté.
 \begin{equation} \label{eq:1}
-    \begin{split}
-        L(x,y) &= \exp\left( - i\frac{{2\pi }}{\lambda }\left( {n\Delta \varphi (x,y) + \Delta {\varphi _0} - \Delta \varphi (x,y)} \right)\right)\\
-        &= {\exp\left({i\frac{{2\pi }}{\lambda }\Delta {\varphi _0}}\right)}{\exp\left({ - i\frac{{2\pi }}{{\lambda f}}({x^2} + {y^2})}\right)}
-    \end{split}
+    {R}_{\mu v} - \frac{1}{2}R{g}_{\mu v}+\varLambda {g}_{\mu v}=\frac{8\pi G}{C^4}{T}_{\mu v}
 \end{equation}
+\label{Equation}
 
-\section{Exemples de diagrammes}
-
-Les diagrammes de flux peuvent être réalisés en utilisant l'outil \href{https://app.diagrams.net/}{draw.io}. Une exportation en \texttt{.drawio} (non compressé) permet de garder les sources de la figure. Le rendu en \texttt{.pdf} sera réalisé à la volée à la compilation. L'intérêt est double : n'avoir qu'une source de vérité \cad pas d'image intermédiaire à stocker, et réduire la quantité d'information stockée.
-
-Puisque la source est au format XML, les textes sont accessibles au correcteur orthographique et il vous est rendu possible les modifier sans avoir à éditer l'image. La figure \ref{euclide.drawio} en est un exemple.
+\subsection{Diagrammes}
+De même que pour les équations, nous avons la possibilités d'utiliser des diagrammes.
 
 \fig[H, width=9cm]{Algorithme d'Euclide}{euclide.drawio}
 
