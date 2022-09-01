@@ -346,27 +346,6 @@ Supervisé par :\\
 \vskip 1.5em%
 }
 
-% Preamble
-\newcommand{\preamblename}{Préambule}
-\newcommand\preamble{
-\chapter*{\preamblename}
-\addcontentsline{toc}{chapter}{\preamblename}
-
-Ce travail de Bachelor (ci-après \textbf{TB}) est réalisé en fin de cursus d'études, en vue de l'obtention du titre de Bachelor of Science HES-SO en \@field.
-
-En tant que travail académique, son contenu, sans préjuger de sa valeur, n'engage ni la responsabilité de l'auteur, ni celles du jury du travail de Bachelor et de l'École.
-
-Toute utilisation, même partielle, de ce TB doit être faite dans le respect du droit d'auteur.
-
-\vskip 4em%
-{\leftskip8cm\relax
-HEIG-VD \\
-Le Chef du Département\par
-\vfil
-}
-Yverdon-les-Bains, le \@date
-}
-
 % Abstract
 \newcommand{\abstractname}{Version Abrégée}
 \newenvironment{abstract}{
